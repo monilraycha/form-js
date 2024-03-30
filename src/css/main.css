@@ -1,0 +1,111 @@
+
+*{
+  font-family: poppins;
+  text-align: center;
+}
+
+#tableContainerId{
+ margin: 15px;
+ font-weight: 600;
+
+}
+
+table, th , td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  margin : 50px auto 0 auto;
+
+}
+
+.container{
+  background-origin: padding-box;
+  box-sizing: border-box;
+  padding: 80px 250px;
+  border: 1px solid black;
+  background-color: cornflowerblue;
+}
+
+#btnSubmit , #btnReset{
+  margin:20px 20px;
+  display: block;
+  width: 90%;
+
+}
+
+#btnReset{
+background-color: red;
+
+}
+
+form{
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+input,select{
+  width: 100%;
+  text-align: left;
+}
+
+input[type = text],
+input[type = number],input[type = email],input[type = tel],select,textarea
+{
+  background-color: #dbe4e6;
+  color: black;
+}
+
+#txtAddress ,option {
+  background-color: #dbe4e6;
+  text-align: left;
+
+}
+
+label {
+
+  padding-top: 10px;
+
+}
+
+#editButtons button{
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin: 10px 10px ;
+  border-radius: 15px ;
+}
+
+#editButtons button:hover{
+  background-color: greenyellow;
+}
+
+tbody button{
+  
+  background-color: #c2fbd7;
+  border-radius: 50px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding:  10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+tbody button:hover{
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
